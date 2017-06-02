@@ -2,11 +2,11 @@
 post_install() {
   cat <<- EOF
 
-You have to execute the following commands to upgrade automatically:
+  You have to execute the following commands to upgrade automatically:
 
-    $ rm -rf ~/.local/share/heroku/cli
-    $ mkdir -p ~/.local/share/heroku
-    $ cp -r /usr/lib/heroku ~/.local/share/heroku/cli
+      $ rm -rf ~/.local/share/heroku/cli
+      $ mkdir -p ~/.local/share/heroku
+      $ cp -r /usr/lib/heroku ~/.local/share/heroku/cli
 
 EOF
 }
@@ -15,9 +15,9 @@ EOF
 post_remove() {
   cat <<-EOF
 
-Please remove the following directories to uninstall compeletely:
+  Please remove the following directories to uninstall compeletely:
 
-    $ rm -rf ~/.local/share/heroku ~/.config/heroku ~/.cache/heroku ~/.heroku
+      $ rm -rf ~/.local/share/heroku ~/.config/heroku ~/.cache/heroku ~/.heroku
 
 EOF
 }

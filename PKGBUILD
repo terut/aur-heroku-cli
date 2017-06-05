@@ -2,7 +2,7 @@
 _npmname=heroku-cli
 pkgname=nodejs-$_npmname
 pkgver=6.7.4
-pkgrel=1
+pkgrel=2
 pkgdesc="The next generation Node-based Heroku CLI"
 arch=("any")
 url="https://github.com/heroku/cli"

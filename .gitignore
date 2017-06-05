@@ -1,6 +1,7 @@
 *.swp
 *.tar.gz
 *.tar.xz
+*.tgz
 /pkg
 /src
 LICENSE
